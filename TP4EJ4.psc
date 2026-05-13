@@ -6,8 +6,21 @@ Algoritmo TP4EJ4
 	Definir dia Como Entero
 	Definir mes Como entero
 	Definir año Como Entero
+	Definir esBiciesto Como real
 	
+	Escribir "Ingrese el año con solo sus ultimos 2 digitos"
+	Leer año
 	
+	Escribir "ingrese el mes usando numeros"
+	Leer mes
 	
+	Escribir "ingrese el dia usando numeros"
+	Leer dia
+	
+	esBiciesto = año mod 4
+	
+	Si esBiciesto = 0 Entonces
+		
+	FinSi
 	
 FinAlgoritmo
